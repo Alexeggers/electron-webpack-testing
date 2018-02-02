@@ -1,0 +1,12 @@
+:local(.AppShell) {
+    div {
+        h1 {
+            text-transform: uppercase;
+        }
+    }
+    &.danger {
+        h1 {
+            color: blue;
+        }
+    }
+}
